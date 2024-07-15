@@ -25,7 +25,7 @@ export const Navbar = () => {
         </div>
         <Link href="/">Home</Link>
         <Link href="/basic">Basic Route</Link>
-        <Link href="/dynamic">Dynamic Route</Link>
+        <Link href="/products">Dynamic (products)</Link>
       </div>
     </nav>
   )
