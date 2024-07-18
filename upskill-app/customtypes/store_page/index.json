@@ -1,0 +1,153 @@
+{
+  "id": "store_page",
+  "label": "Store page",
+  "format": "page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": "east-london"
+        }
+      },
+      "event_uid": {
+        "type": "Text",
+        "config": {
+          "label": "Event uid"
+        }
+      },
+      "name": {
+        "type": "Text",
+        "config": {
+          "label": "Name",
+          "placeholder": "E.g. Rough Trade West"
+        }
+      },
+      "visit_us": {
+        "type": "Text",
+        "config": {
+          "label": "Visit us",
+          "placeholder": "e.g. Visit us"
+        }
+      },
+      "holiday_opening_times": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Holiday opening times"
+        }
+      },
+      "opening_times": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph,strong,em,hyperlink",
+          "allowTargetBlank": true,
+          "label": "Opening times"
+        }
+      },
+      "summary": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph",
+          "allowTargetBlank": true,
+          "label": "Summary",
+          "placeholder": "No more than 200 characters"
+        }
+      },
+      "find_us": {
+        "type": "Text",
+        "config": {
+          "label": "Find us",
+          "placeholder": "E.g. Find us"
+        }
+      },
+      "google_address_link": {
+        "type": "Text",
+        "config": {
+          "label": "Google address link",
+          "placeholder": "e.g https://goo.gl/maps/cVhWgCDxLPsvvMAt7"
+        }
+      },
+      "google_embed_link": {
+        "type": "Text",
+        "config": {
+          "label": "Google embed link",
+          "placeholder": "embed url"
+        }
+      },
+      "address": {
+        "type": "Text",
+        "config": {
+          "label": "Address"
+        }
+      },
+      "contact_us": {
+        "type": "Text",
+        "config": {
+          "label": "Contact us",
+          "placeholder": "E.g Contact Us"
+        }
+      },
+      "email": {
+        "type": "Text",
+        "config": {
+          "label": "Email",
+          "placeholder": "east@roughtrade.com"
+        }
+      },
+      "phone": {
+        "type": "Text",
+        "config": {
+          "label": "Phone",
+          "placeholder": ""
+        }
+      },
+      "snippet": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "embed",
+          "label": "snippet"
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Image"
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

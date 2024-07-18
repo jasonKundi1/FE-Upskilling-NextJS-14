@@ -1,0 +1,38 @@
+{
+  "id": "navigation_events_data",
+  "label": "Navigation Events Data",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "event_group": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "location": {
+              "type": "Text",
+              "config": {
+                "label": "Location"
+              }
+            },
+            "slug": {
+              "type": "Text",
+              "config": {
+                "label": "Slug"
+              }
+            },
+            "snippet": {
+              "type": "StructuredText",
+              "config": {
+                "multi": "embed",
+                "label": "Snippet"
+              }
+            }
+          },
+          "label": "Event Group"
+        }
+      }
+    }
+  }
+}

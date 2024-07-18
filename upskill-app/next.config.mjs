@@ -1,8 +1,20 @@
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["images.dog.ceo"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.prismic.io",
+        pathname: "**",
+      },
+      {
+        protocol: "https",
+        hostname: "images.dog.ceo",
+        pathname: "**",
+      },
+    ],
   },
 }
 

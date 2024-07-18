@@ -1,0 +1,10 @@
+{
+  "id": "navigation_genres",
+  "label": "Navigation Genres",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {}
+  }
+}

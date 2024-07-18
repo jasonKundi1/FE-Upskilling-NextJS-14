@@ -1,0 +1,110 @@
+{
+  "id": "competition_page",
+  "label": "Competition Page",
+  "format": "page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "uid",
+          "placeholder": "e.g. competition-name"
+        }
+      },
+      "seo_title": {
+        "type": "Text",
+        "config": {
+          "label": "SEO Title"
+        }
+      },
+      "seo_description": {
+        "type": "Text",
+        "config": {
+          "label": "SEO Description"
+        }
+      },
+      "competition_name": {
+        "type": "Text",
+        "config": {
+          "label": "Competition Name"
+        }
+      }
+    },
+    "Content": {
+      "header": {
+        "type": "Text",
+        "config": {
+          "label": "Header"
+        }
+      },
+      "content": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Content",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,hyperlink,list-item,heading1,heading2"
+        }
+      },
+      "form_id": {
+        "type": "Text",
+        "config": {
+          "label": "Form ID",
+          "placeholder": "e.g. klaviyo-form-SxNChg"
+        }
+      },
+      "end_date": {
+        "type": "Date",
+        "config": {
+          "label": "End date"
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "constraint": {},
+          "thumbnails": [],
+          "label": "Image"
+        }
+      },
+      "image_overlay": {
+        "type": "Boolean",
+        "config": {
+          "label": "Image overlay",
+          "default_value": false,
+          "placeholder_true": "true",
+          "placeholder_false": "false"
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "id": "teaser_configuration",
+  "label": "Teaser Configuration",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "free_shipping_price": {
+        "type": "Number",
+        "config": {
+          "label": "Free Shipping Price",
+          "placeholder": "Eg: '70' to denote £70"
+        }
+      }
+    }
+  }
+}

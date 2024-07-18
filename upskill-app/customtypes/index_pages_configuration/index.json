@@ -1,0 +1,18 @@
+{
+  "id": "index_pages_configuration",
+  "label": "Index Pages Configuration",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

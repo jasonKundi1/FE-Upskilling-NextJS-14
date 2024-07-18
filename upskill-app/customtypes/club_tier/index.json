@@ -1,0 +1,90 @@
+{
+  "id": "club_tier",
+  "label": "Club: Tier attributes",
+  "format": "custom",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "tier_name": {
+        "type": "Text",
+        "config": {
+          "label": "Tier Name"
+        }
+      },
+      "about_page": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["club_page"],
+          "label": "About page"
+        }
+      },
+      "join_page": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["club_form_modal"],
+          "label": "Join page",
+          "placeholder": "Connect the associated join form page"
+        }
+      },
+      "gift_page": {
+        "type": "Link",
+        "config": {
+          "select": "document",
+          "customtypes": ["club_form_modal"],
+          "label": "Gift page",
+          "placeholder": "Connect the associated gift form page. Leave blank if does not exist."
+        }
+      },
+      "tier_benefits": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "icon": {
+              "type": "Image",
+              "config": {
+                "constraint": {},
+                "thumbnails": [],
+                "label": "Icon"
+              }
+            },
+            "title": {
+              "type": "Text",
+              "config": {
+                "label": "Title"
+              }
+            },
+            "description": {
+              "type": "Text",
+              "config": {
+                "label": "Description"
+              }
+            },
+            "short_description": {
+              "type": "Text",
+              "config": {
+                "label": "Short Description"
+              }
+            }
+          },
+          "label": "Tier Benefits"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "repositoryName": "upskill-app",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./src/app/(prismic)/slices"],
+  "localSliceSimulatorURL": "http://localhost:3000/slice-simulator"
+}

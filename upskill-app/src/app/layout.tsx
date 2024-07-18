@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { PrismicPreview } from "@prismicio/next"
+import { repositoryName } from "@/prismicio"
 import "./globals.css"
 import { Navbar } from "./components/Navbar/Navbar"
 
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body>
         <Navbar />
         {children}
+        <PrismicPreview repositoryName={repositoryName} />
       </body>
     </html>
   )

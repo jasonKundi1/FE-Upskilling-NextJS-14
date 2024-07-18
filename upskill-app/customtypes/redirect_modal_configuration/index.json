@@ -1,0 +1,52 @@
+{
+  "id": "redirect_modal_configuration",
+  "label": "Modal: Locale redirect",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "current_locale": {
+        "type": "Text",
+        "config": {
+          "label": "current locale",
+          "placeholder": "You're shopping in"
+        }
+      },
+      "switch_text_1": {
+        "type": "Text",
+        "config": {
+          "label": "Switch text 1",
+          "placeholder": "Switch to.....(currency in code"
+        }
+      },
+      "switch_text_continued": {
+        "type": "Text",
+        "config": {
+          "label": "switch text continued",
+          "placeholder": "....to benefit from"
+        }
+      },
+      "button_text_remain": {
+        "type": "Text",
+        "config": {
+          "label": "button text remain",
+          "placeholder": "Keep shopping in"
+        }
+      },
+      "button_text_switch": {
+        "type": "Text",
+        "config": {
+          "label": "button text switch",
+          "placeholder": "Switch to shopping in"
+        }
+      },
+      "footer_note": {
+        "type": "Text",
+        "config": {
+          "label": "footer note"
+        }
+      }
+    }
+  }
+}

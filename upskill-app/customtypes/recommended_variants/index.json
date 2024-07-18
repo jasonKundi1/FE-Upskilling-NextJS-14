@@ -1,0 +1,26 @@
+{
+  "id": "recommended_variants",
+  "label": "Cart Page: Recommended variants",
+  "format": "custom",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "variants": {
+        "type": "Group",
+        "config": {
+          "fields": {
+            "variantid": {
+              "type": "Text",
+              "config": {
+                "label": "variantId",
+                "placeholder": "Variant ID from Saleor eg: UHJvZHVjdFZhcmlhbnQ6MjA2NTQ2"
+              }
+            }
+          },
+          "label": "Variants"
+        }
+      }
+    }
+  }
+}
