@@ -1,6 +1,6 @@
 import { createClient } from "@/prismicio"
 import { SliceZone } from "@prismicio/react"
-import { components } from "../slices"
+import { components } from "../../slices"
 import { notFound } from "next/navigation"
 
 type Params = { uid: string }
